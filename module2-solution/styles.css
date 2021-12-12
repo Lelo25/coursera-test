@@ -27,6 +27,7 @@ p {
    }
    
 .content{ 
+  height: 200px;
   display: flex;
   clear: margin;
     background-color: wheat;
@@ -34,7 +35,7 @@ p {
     margin: 5px;
     padding: 0.5%;
     border: 1px solid black;
-    
+    overflow: auto;
 }
 .box1{
     background-color: #ff2030;
